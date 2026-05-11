@@ -1,6 +1,6 @@
-# Portfolio — Valentin Carpinteiro-Lericq
+# Portfolio
 
-Mon portfolio personnel développé en HTML/CSS pur, accessible en ligne via GitHub Pages.
+Mon portfolio personnel en HTML et CSS, accessible en ligne via GitHub Pages.
 
 ## Voir le site
 
