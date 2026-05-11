@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentin Carpinteiro-Lericq — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <ul class="nav-links">
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#projects">Projets</a></li>
+    <li><a href="#parcours">Parcours</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <h1>Valentin Carpinteiro Lericq</h1>
+    <p class="hero-sub">
+      Étudiant en BUT Informatique à l'IUT de Créteil-Vitry, 
+      je recherche une alternance de 24 mois à partir de 
+      septembre 2026. Curieux, persévérant et à l'écoute, 
+      je veux m'investir concrètement dans le développement 
+      d'applications ou la gestion de données au sein d'une 
+      équipe qui me fera progresser.
+    </p>
+    <div class="hero-actions">
+      <a href="https://github.com/valentincarp" target="_blank" class="btn btn-primary">Mon GitHub</a>
+      <a href="#projects" class="btn btn-ghost">Voir mes projets</a>
+      <a href="mailto:valentin.carpinteiro-lericq@etu.upec.fr" class="btn btn-ghost">Me contacter</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="section-tag">01 · À propos</div>
+  <h2>Qui suis-je ?</h2>
+  <div class="about-layout">
+    <div class="about-body">
+      <p>Tout a commencé en <strong>STI2D parcours SIN</strong> au lycée Christophe Colomb de Sucy-en-Brie. En programmant mes premiers robots, j'ai eu le déclic : voir du code interagir avec le monde physique m'a immédiatement passionné. C'est ce qui m'a poussé à choisir le <strong>BUT Informatique à l'IUT de Créteil-Vitry</strong>.</p>
+      <p>Depuis septembre 2025, je construis des compétences concrètes à travers des SAÉ : développement d'applications web, création et exploitation de bases de données, administration système et réseau, algorithmique, gestion de projet agile. Chaque SAÉ est un vrai livrable, pas juste un exercice.</p>
+      <p>En dehors du code, je pratique le <strong>Judo et le Jiu-Jitsu Brésilien en compétition</strong>. Deux disciplines qui m'ont appris la rigueur, la persévérance et le travail d'équipe — des qualités directement applicables en entreprise.</p>
+      <p>Basé à <strong>Sucy-en-Brie (94)</strong>, titulaire du permis B et disposant d'un véhicule personnel. Je recherche une alternance de 24 mois au rythme 1 semaine / 1 semaine, à partir de septembre 2026.</p>
+    </div>
+    <div class="skills-card">
+      <div class="skill-group">
+        <h3>Développement</h3>
+        <div class="tags">
+          <span class="tag blue">Python</span>
+          <span class="tag blue">Java</span>
+          <span class="tag blue">C</span>
+          <span class="tag blue">HTML / CSS</span>
+          <span class="tag blue">JavaScript</span>
+          <span class="tag blue">Flask</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Bases de données</h4>
+        <div class="tags">
+          <span class="tag green">SQL / PL-SQL</span>
+          <span class="tag green">SQLite</span>
+          <span class="tag green">MySQL</span>
+          <span class="tag green">SQLAlchemy</span>
+          <span class="tag green">MCD / MLD</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Système & Réseau</h4>
+        <div class="tags">
+          <span class="tag orange">Linux</span>
+          <span class="tag orange">SSH / SFTP</span>
+          <span class="tag orange">DHCP</span>
+          <span class="tag orange">VirtualBox</span>
+          <span class="tag orange">Bash</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Outils</h4>
+        <div class="tags">
+          <span class="tag">Git / GitHub</span>
+          <span class="tag">DBeaver</span>
+          <span class="tag">Figma</span>
+          <span class="tag">API REST</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="projects-section">
+  <div class="section-tag">02 · Projets</div>
+  <h2>Mes SAÉ — Situations d'Apprentissage et d'Évaluation</h2>
+
+  <div class="semester-block">
+    <div class="semester-label">Semestre 1 · 2025</div>
+    <div class="projects-grid">
+
+      <div class="card">
+        <div class="card-top">
+          <span class="card-sae">SAÉ 1.04</span>
+        </div>
+        <h3>Base de données démographiques mondiale</h3>
+        <p>Transformation d'un fichier CSV brut de données ONU (1950–2023) en base relationnelle SQLite. Modélisation en 4 niveaux (continent / région / sous-région / pays), requêtes SQL d'analyse, jointures multi-tables, création de vues et altération du schéma avec ALTER TABLE.</p>
+        <div class="card-tags">
+          <span class="ctag g">SQLite</span>
+          <span class="ctag g">SQL</span>
+          <span class="ctag g">Modélisation</span>
+          <span class="ctag">DBeaver</span>
+          <span class="ctag">Données ONU</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="card-sae">SAÉ 1.01</span>
+        </div>
+        <h3>Application web — Tableau de bord démographique</h3>
+        <p>Développement d'une application Flask connectée à la base SQLite (SAÉ 1.04). Architecture MVC, pages HTML/CSS dynamiques, représentations graphiques en JavaScript, requêtes d'extraction et affichage des données de population mondiale.</p>
+        <div class="card-tags">
+          <span class="ctag b">Python</span>
+          <span class="ctag b">Flask</span>
+          <span class="ctag b">HTML / CSS</span>
+          <span class="ctag b">JavaScript</span>
+          <span class="ctag g">SQLite</span>
+          <span class="ctag">MVC</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="card-sae">SAÉ 1.02</span>
+        </div>
+        <h3>Comparaison d'algorithmes de tri</h3>
+        <p>Implémentation de 5 algorithmes de tri (insertion, bulles, fusion, sélection, rapide) en pseudo-code LARP, en C et en Python. Analyse des complexités temporelles dans le meilleur cas, le pire cas et en moyenne, sauvegarde des résultats en CSV pour visualisation.</p>
+        <div class="card-tags">
+          <span class="ctag b">Python</span>
+          <span class="ctag p">C</span>
+          <span class="ctag p">Algorithmique</span>
+          <span class="ctag">Complexité</span>
+          <span class="ctag">CSV</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="card-sae">SAÉ 1.03</span>
+        </div>
+        <h3>Installation d'un poste de développement</h3>
+        <p>Mise en place d'un environnement virtualisé complet sous VirtualBox : VM Ubuntu pour le développement, VM Debian pour les tests, deux serveurs web et un serveur BDD. Administration SSH via MobaXterm, automatisation avec VBoxManage en CLI.</p>
+        <div class="card-tags">
+          <span class="ctag o">Linux</span>
+          <span class="ctag o">VirtualBox</span>
+          <span class="ctag o">SSH</span>
+          <span class="ctag o">Ubuntu</span>
+          <span class="ctag o">Debian</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="card-sae">SAÉ 1.05</span>
+        </div>
+        <h3>Site web — Recueil de besoins client</h3>
+        <p>Conduite d'un entretien client (10 min) pour recueillir les besoins d'une association fictive, rédaction d'une synthèse faisant office de cahier des charges, puis développement d'un site web multi-pages présentant l'association et son événement de collecte de fonds.</p>
+        <div class="card-tags">
+          <span class="ctag b">HTML / CSS</span>
+          <span class="ctag">Recueil besoins</span>
+          <span class="ctag">Cahier des charges</span>
+          <span class="ctag">Travail en équipe</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="card-sae">SAÉ 1.06</span>
+        </div>
+        <h3>Analyse économique d'une entreprise tech</h3>
+        <p>Analyse SWOT et PESTEL d'une entreprise du secteur numérique, évaluation critique de sa politique RSE. Production de fiches méthodologiques et soutenance avec analyse du travail en équipe, présentation du positionnement économique et mise en regard avec les enjeux écologiques.</p>
+        <div class="card-tags">
+          <span class="ctag">SWOT</span>
+          <span class="ctag">PESTEL</span>
+          <span class="ctag">RSE</span>
+          <span class="ctag">Travail en équipe</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="semester-block">
+    <div class="semester-label">Semestre 2 · 2026</div>
+    <div class="projects-grid">
+
+      <div class="card">
+        <div class="card-top">
+          <div class="card-icon ci-blue">🗜️</div>
+          <span class="card-sae">SAÉ 2.02</span>
+        </div>
+        <h3>Compression de Huffman</h3>
+        <p>Implémentation complète en Python orienté objet de l'algorithme de compression sans perte de Huffman. Construction d'arbres binaires, calcul des fréquences de caractères, encodage de textes entiers et mesure des taux de compression sur des romans et textes réels.</p>
+        <div class="card-tags">
+          <span class="ctag b">Python</span>
+          <span class="ctag b">POO</span>
+          <span class="ctag b">Arbres binaires</span>
+          <span class="ctag g">Git</span>
+          <span class="ctag">Algorithmique</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="card-sae">SAÉ 2.03</span>
+        </div>
+        <h3>Infrastructure réseau multi-serveurs</h3>
+        <p>Mise en place d'une maquette réseau complète sous VirtualBox (Ubuntu Server). Serveur DHCP avec dnsmasq, bastion SSH avec authentification par clé, serveur web Nginx, FTP/SFTP, déploiement automatisé via scripts Bash et configuration renforcée.</p>
+        <div class="card-tags">
+          <span class="ctag o">Linux</span>
+          <span class="ctag o">SSH</span>
+          <span class="ctag o">DHCP</span>
+          <span class="ctag o">FTP / SFTP</span>
+          <span class="ctag o">Bash</span>
+          <span class="ctag">VirtualBox</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="card-sae">SAÉ 2.04</span>
+        </div>
+        <h3>Base de données — Données de santé ameli.fr</h3>
+        <p>Construction d'une base MySQL alimentée par l'API open data de l'Assurance Maladie. Modélisation de 9 tables de dimensions (région, profession, secteur…), connexion via SQLAlchemy ORM, pagination des appels API avec group_by, requêtes d'analyse avancées.</p>
+        <div class="card-tags">
+          <span class="ctag g">MySQL</span>
+          <span class="ctag g">SQLAlchemy</span>
+          <span class="ctag b">Python</span>
+          <span class="ctag b">API REST</span>
+          <span class="ctag">DBeaver</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="card-sae">SAÉ 2.05</span>
+        </div>
+        <h3>Gestion de projet — Cahier des charges</h3>
+        <p>Rédaction d'un cahier des charges complet pour une application web de santé en équipe. Analyse des besoins client, spécifications SMART, priorisation MoSCoW (must/should/could/won't), planning Gantt, budget prévisionnel et maquette Figma de l'interface.</p>
+        <div class="card-tags">
+          <span class="ctag">Figma</span>
+          <span class="ctag">Gestion de projet</span>
+          <span class="ctag p">Gantt</span>
+          <span class="ctag p">MoSCoW</span>
+          <span class="ctag">SMART</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="card-sae">SAÉ 2.06</span>
+        </div>
+        <h3>Organisation d'équipe — Méthodes agiles</h3>
+        <p>Étude comparative de méthodes de travail agiles (Scrum, Kanban, Lean, SAFe, XP). Création de posters A3, soutenance et choix argumenté de la méthode retenue pour organiser le travail de l'équipe sur les SAÉ 2.01, 2.04 et 2.05.</p>
+        <div class="card-tags">
+          <span class="ctag">Scrum</span>
+          <span class="ctag">Kanban</span>
+          <span class="ctag">Lean</span>
+          <span class="ctag g">Travail en équipe</span>
+          <span class="ctag">Canva</span>
+        </div>
+      </div>
+
+      <div class="card wip">
+        <div class="card-top">
+          <span class="card-sae">SAÉ 2.01</span>
+        </div>
+        <h3>Application web Flask — En cours</h3>
+        <p>Développement d'une application web connectée à la base de données santé (SAÉ 2.04). Routes Flask, requêtes dynamiques vers l'API ameli.fr, visualisation des données de santé et comparaison inter-départements. Projet en cours de réalisation.</p>
+        <div class="card-tags">
+          <span class="ctag b">Flask</span>
+          <span class="ctag b">Python</span>
+          <span class="ctag g">MySQL</span>
+          <span class="ctag b">HTML / CSS</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="parcours">
+  <div class="section-tag">03 · Parcours</div>
+  <h2>Formation & Expérience</h2>
+  <div class="timeline">
+
+    <div class="tl-item">
+      <div class="tl-date">Sept. 2025<br>→ aujourd'hui</div>
+      <div class="tl-body">
+        <h3>BUT Informatique — Parcours AGED</h3>
+        <div class="tl-org">IUT de Créteil-Vitry · UPEC · Vitry-sur-Seine</div>
+        <p>Conception et développement d'applications, bases de données (SQL), algorithmique, administration système et réseaux. Formation en alternance à partir de septembre 2026, rythme 1 semaine / 1 semaine sur 24 mois.</p>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-date">Juil. → Août<br>2025</div>
+      <div class="tl-body">
+        <h3>Agent administratif — Service Assainissement</h3>
+        <div class="tl-org">Grand Paris Sud Est Avenir · La Queue-en-Brie</div>
+        <p>Structuration de dossiers administratifs, création de tableaux de suivi Excel, gestion d'informations techniques et coordination avec différents interlocuteurs.</p>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-date">Sept. 2022<br>→ Juil. 2025</div>
+      <div class="tl-body">
+        <h3>Baccalauréat STI2D — Mention Bien</h3>
+        <div class="tl-org">Lycée Christophe Colomb · Sucy-en-Brie</div>
+        <p>Parcours SIN (Systèmes d'Information du Numérique). Programmation de robots, projets numériques concrets. Déclic pour la poursuite en BUT Informatique.</p>
+      </div>
+      </div>
+
+    <div class="tl-item">
+      <div class="tl-date">Juin → Août<br>2022</div>
+        <div class="tl-body">
+          <h3>Employé Polyvalent & Services des sports</h3>
+        <div class="tl-org">Mergulhar nos Sabores · Portugal — Mairie de Sucy-en-Brie</div>
+      <p>Service en salle et au bar dans un restaurant au Portugal. Encadrement d'élèves du CP au CM2 en collaboration avec un éducateur sportif à la mairie de Sucy-en-Brie.</p>
+    </div>
+    </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="section-tag">04 · Contact</div>
+  <div class="contact-layout">
+    <div class="contact-lhs">
+      <h2>Mes contacts</h2>
+      <p>Je recherche une alternance de 24 mois en développement ou data à partir de septembre 2026. N'hésitez pas à me contacter.</p>
+      <a href="mailto:valentin.carpinteiro-lericq@etu.upec.fr" class="btn btn-primary">Envoyer un message</a>
+    </div>
+    <div class="contact-items">
+      <a href="mailto:valentin.carpinteiro-lericq@etu.upec.fr" class="contact-item">
+        <div class="ci-text">
+          <span class="ci-label">Email</span>
+          <span class="ci-value">valentin.carpinteiro-lericq@etu.upec.fr</span>
+        </div>
+      </a>
+      <a href="tel:0767217594" class="contact-item">
+        <div class="ci-text">
+          <span class="ci-label">Téléphone</span>
+          <span class="ci-value">07 67 21 75 94</span>
+        </div>
+      </a>
+      <a href="https://github.com/valentincarp" target="_blank" class="contact-item">
+        <div class="ci-text">
+          <span class="ci-label">GitHub</span>
+          <span class="ci-value">github.com/valentincarp</span>
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/valentincarpinteiro-lericq-178858316/" target="_blank" class="contact-item">
+        <div class="ci-text">
+          <span class="ci-label">LinkedIn</span>
+          <span class="ci-value">Valentin Carpinteiro-Lericq</span>
+        </div>
+      </a>
+      <div class="contact-item">
+        <div class="ci-text">
+          <span class="ci-label">Localisation</span>
+          <span class="ci-value">Sucy-en-Brie (94) · Permis B + véhicule</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Valentin Carpinteiro-Lericq</p>
+  <p>BUT Informatique · IUT Créteil-Vitry · UPEC</p>
+</footer>
+
+</body>
+</html>
